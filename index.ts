@@ -63,7 +63,7 @@ interface human {
   name: string
   age: number
   height: number
-  bloodType: bloodType
+  bloodType?: bloodType
 }
 
 const me: human = {
